@@ -1,0 +1,247 @@
+[
+  {
+    "entity_text": "Sa",
+    "entity_label": "PER",
+    "score": 0.9996,
+    "start": 26,
+    "end": 28
+  },
+  {
+    "entity_text": "ki",
+    "entity_label": "PER",
+    "score": 0.6688,
+    "start": 28,
+    "end": 30
+  },
+  {
+    "entity_text": "r Starmer",
+    "entity_label": "PER",
+    "score": 0.9863,
+    "start": 30,
+    "end": 39
+  },
+  {
+    "entity_text": "Prince",
+    "entity_label": "PER",
+    "score": 0.9161,
+    "start": 44,
+    "end": 50
+  },
+  {
+    "entity_text": "William",
+    "entity_label": "PER",
+    "score": 0.8983,
+    "start": 51,
+    "end": 58
+  },
+  {
+    "entity_text": "Bolema",
+    "entity_label": "LOC",
+    "score": 0.8724,
+    "start": 88,
+    "end": 94
+  },
+  {
+    "entity_text": "Brazil",
+    "entity_label": "LOC",
+    "score": 0.9997,
+    "start": 108,
+    "end": 114
+  },
+  {
+    "entity_text": "UN",
+    "entity_label": "ORG",
+    "score": 0.9976,
+    "start": 129,
+    "end": 131
+  },
+  {
+    "entity_text": "Brazilian",
+    "entity_label": "MISC",
+    "score": 0.9988,
+    "start": 186,
+    "end": 195
+  },
+  {
+    "entity_text": "Amazon",
+    "entity_label": "LOC",
+    "score": 0.7484,
+    "start": 196,
+    "end": 202
+  },
+  {
+    "entity_text": "Forest Cop. Well",
+    "entity_label": "MISC",
+    "score": 0.916,
+    "start": 238,
+    "end": 254
+  },
+  {
+    "entity_text": "Paris",
+    "entity_label": "LOC",
+    "score": 0.9996,
+    "start": 290,
+    "end": 295
+  },
+  {
+    "entity_text": "UN",
+    "entity_label": "ORG",
+    "score": 0.9984,
+    "start": 424,
+    "end": 426
+  },
+  {
+    "entity_text": "Brazil",
+    "entity_label": "LOC",
+    "score": 0.9998,
+    "start": 573,
+    "end": 579
+  },
+  {
+    "entity_text": "China",
+    "entity_label": "LOC",
+    "score": 0.9998,
+    "start": 807,
+    "end": 812
+  },
+  {
+    "entity_text": "India",
+    "entity_label": "LOC",
+    "score": 0.9998,
+    "start": 814,
+    "end": 819
+  },
+  {
+    "entity_text": "United States",
+    "entity_label": "LOC",
+    "score": 0.9995,
+    "start": 828,
+    "end": 841
+  },
+  {
+    "entity_text": "Justin Rollart",
+    "entity_label": "PER",
+    "score": 0.9858,
+    "start": 869,
+    "end": 883
+  },
+  {
+    "entity_text": "Amazon",
+    "entity_label": "LOC",
+    "score": 0.9966,
+    "start": 954,
+    "end": 960
+  },
+  {
+    "entity_text": "Brazil",
+    "entity_label": "LOC",
+    "score": 0.9998,
+    "start": 1230,
+    "end": 1236
+  },
+  {
+    "entity_text": "China",
+    "entity_label": "LOC",
+    "score": 0.9998,
+    "start": 1313,
+    "end": 1318
+  },
+  {
+    "entity_text": "India",
+    "entity_label": "LOC",
+    "score": 0.9998,
+    "start": 1320,
+    "end": 1325
+  },
+  {
+    "entity_text": "US",
+    "entity_label": "LOC",
+    "score": 0.9996,
+    "start": 1334,
+    "end": 1336
+  },
+  {
+    "entity_text": "US",
+    "entity_label": "LOC",
+    "score": 0.9996,
+    "start": 1419,
+    "end": 1421
+  },
+  {
+    "entity_text": "Paris Agreement",
+    "entity_label": "MISC",
+    "score": 0.9777,
+    "start": 1446,
+    "end": 1461
+  },
+  {
+    "entity_text": "UN",
+    "entity_label": "ORG",
+    "score": 0.9988,
+    "start": 1479,
+    "end": 1481
+  },
+  {
+    "entity_text": "Global",
+    "entity_label": "ORG",
+    "score": 0.671,
+    "start": 1920,
+    "end": 1926
+  },
+  {
+    "entity_text": "Paris",
+    "entity_label": "LOC",
+    "score": 0.9939,
+    "start": 2164,
+    "end": 2169
+  },
+  {
+    "entity_text": "Brazil",
+    "entity_label": "LOC",
+    "score": 0.9997,
+    "start": 2216,
+    "end": 2222
+  },
+  {
+    "entity_text": "UN",
+    "entity_label": "ORG",
+    "score": 0.9967,
+    "start": 2258,
+    "end": 2260
+  },
+  {
+    "entity_text": "Nigel",
+    "entity_label": "PER",
+    "score": 0.6819,
+    "start": 2324,
+    "end": 2329
+  },
+  {
+    "entity_text": "UN",
+    "entity_label": "ORG",
+    "score": 0.997,
+    "start": 2347,
+    "end": 2349
+  },
+  {
+    "entity_text": "UK",
+    "entity_label": "LOC",
+    "score": 0.9962,
+    "start": 2457,
+    "end": 2459
+  },
+  {
+    "entity_text": "BBC",
+    "entity_label": "ORG",
+    "score": 0.9936,
+    "start": 2499,
+    "end": 2502
+  },
+  {
+    "entity_text": "News",
+    "entity_label": "ORG",
+    "score": 0.9733,
+    "start": 2503,
+    "end": 2507
+  }
+]
