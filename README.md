@@ -153,17 +153,6 @@ Save Results
 
 ---
 
-# Future Improvements
-
-- Add Streamlit UI
-- Add timestamps for entities
-- Support Arabic NER models
-- Real-time transcription
-- Entity visualization dashboards
-- Fine-tuned custom NER models
-
----
-
 # Code Explanation
 
 ## Step 1: Extract Audio from Video
