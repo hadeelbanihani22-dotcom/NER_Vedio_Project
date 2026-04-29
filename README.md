@@ -21,6 +21,7 @@ The system performs the following steps:
 - Named Entity Recognition (NER)
 - MoviePy
 - Pandas
+- Streamlit
 - VS Code
 
 ---
@@ -56,8 +57,8 @@ Used to extract and classify entities such as:
 NER_Vedio_Project/
 │
 ├── input/
-│   └── video.mp4
-    └── audio.wav
+│   ├── video.mp4
+│   └── audio.wav
 │
 ├── output/
 │   ├── transcript.txt
@@ -66,7 +67,8 @@ NER_Vedio_Project/
 │   └── entities_summary.csv
 │
 ├── main.py
-└── README.md
+├── app.py
+├── README.md
 └── requirements.txt
 ```
 
@@ -91,11 +93,12 @@ pandas==3.0.2
 moviepy==2.2.1
 accelerate==1.13.0
 imageio-ffmpeg==0.6.0
+streamlit
 ```
 
 ---
 
-# How to Run
+# How to Run the Main Script
 
 1. Place the video file inside the `input` folder.
 
@@ -149,7 +152,53 @@ Save Results
 - Named Entity Recognition (NER)
 - Entity classification
 - Export results to TXT, JSON, and CSV
+- Streamlit web application interface
 - Easy to extend and improve
+
+---
+
+# Streamlit Web Application
+
+The project was also extended into an interactive Streamlit web application.
+
+The Streamlit app allows users to:
+
+- Upload video files through a graphical interface
+- Run the NLP pipeline interactively
+- View the generated transcript
+- Display extracted entities in a table
+- Download entities as a CSV file
+
+## Run the Streamlit App
+
+```bash
+streamlit run app.py
+```
+
+## Streamlit Workflow
+
+```text
+Upload Video
+      ↓
+Extract Audio
+      ↓
+Speech-to-Text
+      ↓
+Named Entity Recognition
+      ↓
+Display Results
+      ↓
+Download CSV
+```
+
+## Streamlit Features
+
+- Interactive user interface
+- Video upload support
+- Real-time NLP processing
+- Transcript visualization
+- Entity table display
+- CSV export functionality
 
 ---
 
@@ -238,4 +287,3 @@ The `main()` function runs the complete NLP workflow:
 # Author
 
 Hadeel
-
