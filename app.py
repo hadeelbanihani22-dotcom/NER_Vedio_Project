@@ -57,7 +57,7 @@ def extract_entities(text):
 
     entities = []
 
-    bad_entities = ["Sa", "ki", "CO", "Global"]
+    bad_entities = ["Sa", "ki", "CO", "Global", "r Starmer"]
 
     for item in results:
         entity_text = item.get("word", "").replace("##", "").strip()
