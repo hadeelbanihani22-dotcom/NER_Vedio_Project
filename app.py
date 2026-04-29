@@ -57,16 +57,26 @@ def extract_entities(text):
 
     entities = []
 
+    bad_entities = ["Sa", "ki", "CO", "Global"]
+
     for item in results:
         entity_text = item.get("word", "").replace("##", "").strip()
+        entity_label = item.get("entity_group", "")
+        score = round(float(item.get("score", 0)), 4)
 
         if len(entity_text) < 2:
             continue
 
+        if score < 0.70:
+            continue
+
+        if entity_text in bad_entities:
+            continue
+
         entities.append({
             "Entity": entity_text,
-            "Label": item.get("entity_group", ""),
-            "Score": round(float(item.get("score", 0)), 4)
+            "Label": entity_label,
+            "Score": score
         })
 
     return pd.DataFrame(entities)

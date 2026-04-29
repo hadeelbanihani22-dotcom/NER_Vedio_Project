@@ -1,24 +1,19 @@
 ﻿entity_label,entity_text,count
 ORG,UN,5
 LOC,Brazil,4
-LOC,Amazon,2
-LOC,Paris,2
-LOC,India,2
 LOC,US,2
+LOC,Amazon,2
+LOC,India,2
 LOC,China,2
-LOC,UK,1
+LOC,Paris,2
 LOC,Bolema,1
-MISC,Brazilian,1
 LOC,United States,1
-MISC,Paris Agreement,1
-ORG,BBC,1
-ORG,Global,1
+LOC,UK,1
+MISC,Brazilian,1
 MISC,Forest Cop. Well,1
+ORG,BBC,1
+MISC,Paris Agreement,1
 ORG,News,1
 PER,Justin Rollart,1
-PER,Nigel,1
 PER,Prince,1
-PER,Sa,1
 PER,William,1
-PER,ki,1
-PER,r Starmer,1

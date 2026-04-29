@@ -1,26 +1,5 @@
 [
   {
-    "entity_text": "Sa",
-    "entity_label": "PER",
-    "score": 0.9996,
-    "start": 26,
-    "end": 28
-  },
-  {
-    "entity_text": "ki",
-    "entity_label": "PER",
-    "score": 0.6688,
-    "start": 28,
-    "end": 30
-  },
-  {
-    "entity_text": "r Starmer",
-    "entity_label": "PER",
-    "score": 0.9863,
-    "start": 30,
-    "end": 39
-  },
-  {
     "entity_text": "Prince",
     "entity_label": "PER",
     "score": 0.9161,
@@ -182,13 +161,6 @@
     "end": 1481
   },
   {
-    "entity_text": "Global",
-    "entity_label": "ORG",
-    "score": 0.671,
-    "start": 1920,
-    "end": 1926
-  },
-  {
     "entity_text": "Paris",
     "entity_label": "LOC",
     "score": 0.9939,
@@ -208,13 +180,6 @@
     "score": 0.9967,
     "start": 2258,
     "end": 2260
-  },
-  {
-    "entity_text": "Nigel",
-    "entity_label": "PER",
-    "score": 0.6819,
-    "start": 2324,
-    "end": 2329
   },
   {
     "entity_text": "UN",

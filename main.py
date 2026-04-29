@@ -74,7 +74,7 @@ def extract_entities(text):
     results = ner(text)
 
     entities = []
-
+    bad_entities = ["Sa", "ki", "CO", "Global", "r Starmer"]
     for item in results:
         entity_text = item.get("word", "").replace("##", "").strip()
         entity_label = item.get("entity_group", "")
@@ -83,7 +83,10 @@ def extract_entities(text):
         if len(entity_text) < 2:
             continue
 
-        if score < 0.50:
+        if score < 0.70:
+            continue
+
+        if entity_text in bad_entities:
             continue
 
         entities.append({
